@@ -1,0 +1,1083 @@
+.contenedor-principal {
+	width: 1200px;
+	margin: 0 auto;
+	height: auto;
+}
+/********************
+CONTENEDOR GRANDE
+********************/
+div.contenedor-grande-1 {
+	background-image: url("../imagenes/banner/map2.png");
+	background-repeat: no-repeat;
+	background-position: top;
+	width: 1200px;
+	height: 500px;
+	margin: 0 auto;
+}
+
+/********************
+BARRA HEADER
+********************/
+
+header.barra-header {
+	width: 1200px;
+	background-color: white;
+}
+header h1 img {
+	width: 300px;
+	display: inline-block;
+	float: left;
+}
+nav.barra-navegacion {
+	width: 900px;
+	display: inline-block;
+	float: left;
+}
+nav.barra-navegacion ul {
+	text-align: right;
+	padding: 35px 0 5px 0;
+}
+
+nav.barra-navegacion ul a {
+	text-decoration: none;
+	color: black;
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	border-top: 2px solid transparent;
+	transition: 0.3s all linear;
+
+}
+nav.barra-navegacion ul a:hover {
+	border-top: 2px solid #1E1E20;
+}
+/********************
+DIV CLEAR
+********************/
+div.clear {
+	clear: both;
+}
+/********************
+BARRA ETIQUETAS
+********************/
+div.barra-etiquetas {
+	width: 1200px;
+	background-color: #1E1E20;
+}
+div.barra-etiquetas ul {
+	text-align: center;
+}
+div.barra-etiquetas ul a {
+	text-decoration: none;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	padding: 8px 15px;
+}
+div.barra-etiquetas ul a:hover {
+	color: #1E1E20;
+	background-color: white;
+	transition: 0.5s;
+}
+div.barra-etiquetas ul a.activo {
+	color: #1E1E20;
+	background-color: white;
+	transition: 0.5s;
+}
+/********************
+DIV SECTION MODULO 1
+********************/
+.modulo-1 {
+	width:1200px;
+	margin: 0 auto;
+	float:left;
+	display: inline-block;
+} 
+.contenedor-grande-1 {
+	width: 1200px;
+	margin: 0 auto;
+
+}
+div.contenedor-grande-1-izquierda {
+	width: 300px;
+	background-image: none;
+	display: inline-block;
+}
+.contenedor-grande-1 a {
+	color: white;
+	text-decoration: none;
+}
+article.contenedor-grande-articulo {
+	text-decoration: none;
+	background-color: rgba(55,65,64,0.1);
+	width: 300px;
+	height: 250px;
+	display: inline-block;
+	float: left;
+	transition: 0.65s;
+	text-align: center;
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif;
+	padding: 80px 30px;
+}
+article.contenedor-grande-articulo1-activo,article.contenedor-grande-articulo2-activo,article.contenedor-grande-articulo3-activo,article.contenedor-grande-articulo4-activo,article.contenedor-grande-articulo5-activo,article.contenedor-grande-articulo6-activo,article.contenedor-grande-articulo7-activo,article.contenedor-grande-articulo8-activo {
+	background-color: rgba(55,65,64,0.65) !important;
+}
+
+
+.contenedor-grande-1 a article:hover {
+	background-color: rgba(55,65,64,0.75);	
+	box-shadow: 0 0 0 rgba(55,65,64,1);
+}
+/*JS*/
+article.contenedor-grande-articulo-izquierda{
+
+	background-color: rgba(55,65,64,1);
+	width: 300px;
+	height: 30px; 
+	display: inline-block;
+	float: left;
+	transition: 0.65s;
+	text-align: center;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	padding: 16px 30px 46px 30px;
+}
+
+/*****************************/
+
+/****************************/
+article.barra_lateral_contenido_a1, article.barra_lateral_contenido_a2,article.barra_lateral_contenido_a3,article.barra_lateral_contenido_a4,article.barra_lateral_contenido_a5,article.barra_lateral_contenido_a6,article.barra_lateral_contenido_a7,article.barra_lateral_contenido_a8{
+	width: 1200px;
+	display: inline-block;
+	float: left;	
+	margin-bottom: 95px;
+}
+article.barra_lateral_contenido_a1_visible,article.barra_lateral_contenido_a2_visible,article.barra_lateral_contenido_a3_visible,article.barra_lateral_contenido_a4_visible,article.barra_lateral_contenido_a5_visible,article.barra_lateral_contenido_a6_visible,article.barra_lateral_contenido_a7_visible,article.barra_lateral_contenido_a8_visible {
+	display: inline-block;
+	float: left;
+	width: 900px;
+	margin: 0 auto;
+}
+article.barra_lateral_contenido_a1 p, article.barra_lateral_contenido_a2 p,article.barra_lateral_contenido_a3 p,article.barra_lateral_contenido_a4 p,article.barra_lateral_contenido_a5 p,article.barra_lateral_contenido_a6 p,article.barra_lateral_contenido_a7 p,article.barra_lateral_contenido_a8 p{
+	padding: 30px 70px 0 70px;
+	font-size: 17px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.3;
+	word-spacing: 1.3;
+}
+
+h2.contenedor_derecho_titulo {
+	padding: 20px 40px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Oswald', sans-serif;
+	background-color: #901808;
+	color: white;
+	line-height: 1.3;
+
+}
+
+span.autor-cita {
+	display: block;
+	text-align: right;
+	padding: 10px 70px 0 70px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.ver-mas-gobierno-abierto-derecha {
+	width: 200px;
+	margin: 0 0 0 auto;
+	padding: 10px 5px;
+	background-color: rgba(55,65,64,1);
+
+}
+.ver-mas-gobierno-abierto-derecha span {
+	display: block;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+
+}
+
+
+/********************
+DIV SECTION MODULO 2
+********************/
+section.modulo-2 {
+	width: 1200px;
+	margin: 10px auto 10px auto;	
+}
+section.modulo-2 h2.titulo {
+	color: white; 
+	font-family: 'Roboto', sans-serif;
+	background-color: white;
+	text-align: center;
+	font-size: 26px;
+	padding: 10px;
+	background-color: #1E1E20;
+
+}
+article.contenedor-grande-1-noticia {
+	width: 240px;
+	height: 173px;
+	display: inline-block;
+	float: left;
+	padding: 10px 10px 0 10px;
+	text-align: center;
+	background-color: white;
+
+}
+article.contenedor-grande-1-noticia h3 {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 0;
+	text-align: center;
+}
+article.contenedor-grande-1-noticia h3 a {
+	text-decoration: none;
+	color: black;
+}
+article.contenedor-grande-1-noticia span.medio-un {
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	display: block;
+	background-color: #901808;
+	padding: 6px 0;
+	color: white;
+	width: 99%;
+	margin: 0 auto 5px auto;
+}
+article.contenedor-grande-1-noticia h4 {
+	font-size: 13px;
+	font-family: 'Roboto', sans-serif;
+	margin: 5px;
+	line-height: 1.3;
+	text-align: center;	
+}
+article.contenedor-grande-1-noticia h4 a {
+	text-decoration: underline;
+	color: #374140;
+}
+article.contenedor-grande-1-noticia time {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;	
+	text-align: center;
+	display: block;
+	background-color: black;
+	color: white;
+	padding: 5px;
+
+}
+section.modulo-2-izq {
+	width: 300px;
+	margin: 0;
+}
+
+}
+section.modulo-2 article.contenedor-grande-1-noticia-izq {
+	width: 300px;
+}
+/********************
+FOOTER
+********************/
+footer.contacto{
+	width: 1200px;
+	margin: 0 auto;
+	margin-top: -15px;
+	background-color: #374140;
+}
+footer h2 {
+	text-align: center;
+	font-size: 33px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 10px;
+}
+footer span.copyright{
+	color: white;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	width: 500px;
+	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	padding: 10px;
+}
+footer span.correo{
+	color: white;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	width: 500px;
+	font-family: 'Roboto', sans-serif;
+	padding: 10px;
+}
+section.contenido-grande-derecho-articulos {
+	width: 900px;
+	display: inline-block;
+
+}
+section.slider-principal {
+	margin: 0 0 -13px 0;
+}
+div.noticia-separacion-136 {
+	height: 130px;
+}
+div.noticia-separacion-19 {
+	height: 19px;
+}
+.videos-multimedia {
+margin-top: 10px;
+	display: block;
+}
+.multimedia-inicio {
+	font-size: 30px;
+	background-color: #1E1E20;
+	color: white;
+	padding: 10px;
+	display: block;
+	width: 599px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: top;
+
+}
+.multimedia-inicio-video {
+	display: block;
+	margin-top: 5px;
+}
+.contenedor-multimedia-inicio {
+	margin-top: -50px;
+	display: inline-block;
+	float: left;
+	width: 599px;
+	overflow: hidden;
+	margin-right: 1px;
+}
+section.right {
+	display: inline-block;
+	margin-top: -50px;
+	width: 300px;
+	float: left;
+	
+}
+section.right h2 {
+	font-size: 30px;
+	background-color: #1E1E20;
+	color: white;
+	padding: 16px;
+	display: block;
+	width: 300px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+.contenido-central {
+	width: 299px;
+
+	display: inline-block;
+	margin-top: -50px;
+	float: left;
+	vertical-align: top;
+}
+.contenido-central h2 {
+	font-size: 30px;
+	background-color: #1E1E20;
+	color: white;
+	padding: 16px;
+	display: block;
+	width: 299px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-bottom: -20px
+}
+.right-enlaces-de-interes{
+	width: 300px;
+
+}
+.right-enlaces-de-interes ul li a{
+	text-decoration: underline;
+	font-family: 'Roboto',sans-serif; 
+	text-align: center;
+	color: black;
+
+}
+.right-enlaces-de-interes ul {
+	padding: 10px 0 15px 15px;
+}
+.right-enlaces-de-interes ul li {
+	margin: 10px 0 10px 0;
+	line-height: 1.15;
+}
+/***********************
+ESTILOS DE PUBLICACIONES
+************************/
+section.publicaciones-peru-ga {
+	display: inline-block;
+	width: 299px;
+	margin-right: 1px;
+	float: left;
+	
+}
+section.publicaciones-peru-ga article {
+	padding: 0;
+	margin: 26.2px 0;
+}
+
+section.publicaciones-peru-ga figure {
+	margin-left: 10px;
+	text-align: center;
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	width: 100px;
+}
+
+section.publicaciones-peru-ga figure img {
+	width: 100px;
+	border: 1px solid black;
+}
+
+section.publicaciones-peru-ga div.text {
+	float: right;
+	display: inline-block;
+	width: 165px;
+	vertical-align: top;
+}
+section.publicaciones-peru-ga h3 {
+	font-family: 'Roboto', sans-serif;	
+	text-align: right;
+	font-size: 16px;	
+	padding: 0 5px 0 6px;
+	margin: 5px 0 0px 0;
+	line-height: 1.1;
+}
+
+section.publicaciones-peru-ga span.descargar a {
+	display: block;
+	background-color: #374140;
+	color: white;
+	width: 120px;
+	margin: 0 5px 0 auto;
+	padding: 5px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;	
+	text-decoration: none;
+		border: 2px solid #374140;
+transition: 0.5s;
+}
+section.publicaciones-peru-ga span.descargar a:hover {
+	color: #374140;
+	background-color: white;
+	border: 2px solid #374140;
+}
+.parche-50px {
+	height: 50px;
+}
+.parche-40px {
+	height: 40px;
+}
+.parche-30px {
+	height: 30px;
+}
+.articulos_relacionados {
+	font-family: 'Roboto', sans-serif;	
+	margin-top: 40px;
+}	
+.articulos_relacionados h2 {
+	font-size: 24px;
+}
+.articulos_relacionados span a{
+	text-decoration: none;
+	font-size: 18px;
+	text-align: left;
+	padding-left: 5px;
+	line-height: 1.5;
+	color: black;
+}
+h2.articulo_barra_de_etiquetas {
+	background-color: black;
+}
+
+
+
+iframe.videos-centro {
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+h2.articulo_nav {
+	background-color: #374140
+}
+span.cuentas {
+		display: block;
+		width: 500px;
+		font-family: 'Roboto', sans-serif;	
+		text-align: center;
+		margin: 0 auto
+}
+
+nav.barra-navegacion ul a.nav_active {
+		border-top: 2px solid #1E1E20;
+}
+
+nav.barra-navegacion ul a.nav_unactive {
+		border-top: 2px solid transparent;
+}
+div.width1 {
+	width: 1px;
+	display: inline-block;
+	float: left;
+}
+@media (max-width: 1250px) {
+  div.contenedor-grande-1 {
+  	max-width: 1000px;
+
+  }
+  header.barra-header {
+  	max-width: 1000px
+  }
+  header h1 img {
+  	margin: 0 auto;
+  }
+  .contenedor-principal {
+  	width: 1000px;
+  }
+  div.barra-etiquetas {
+  	width: 1000px;
+  }
+  nav.barra-navegacion {
+  	width:700px
+  }
+  div.barra-etiquetas ul a{
+  	font-size: 16px;
+  }
+  h2.contenedor_derecho_titulo {
+  	width: 1000px;
+  }
+  footer.contacto {
+  	width:1000px
+  }
+  section.contenedor-multimedia-inicio {
+  	width: 699px;
+  }
+  .multimedia-inicio {
+  	width: 699px;
+  }
+  .multimedia-inicio-video {
+  	width: 699px;
+  }
+  .videos-multimedia {
+  	width: 699px;
+  }
+  section.right {
+  	margin-top: -18px;
+  	width: 1000px;
+  }
+  .right .right-secciona {
+  	display: inline-block;
+  	float: left;
+  	width: 300px;
+  }
+   .right .right-seccionb {
+  	display: inline-block;
+  	float: left;
+  	width: 699px;
+  }
+
+ section.right h2.enlaces-de-interes {
+ 	display: inline-block;
+ 	width: 699px;
+ 	float: left;
+ 	margin-left: 1px;
+ }
+ div.right-enlaces-de-interes {
+ 	display: inline-block;
+ 	width: 699px;
+ 	float: left;
+ 	margin-left: 1px;
+ }
+ article.barra_lateral_contenido_a1, article.barra_lateral_contenido_a2, article.barra_lateral_contenido_a3, article.barra_lateral_contenido_a4, article.barra_lateral_contenido_a5, article.barra_lateral_contenido_a6, article.barra_lateral_contenido_a7, article.barra_lateral_contenido_a8{
+
+ 	width: 1000px;
+ }
+}
+@media (max-width: 1050px){
+  img.logo {
+  	margin-left: 240px;
+  	width: 323px;
+  }
+
+  div.contenedor-grande-1 {
+  	max-width: 800px;
+
+  }
+  article.barra_lateral_contenido_a1, article.barra_lateral_contenido_a2, article.barra_lateral_contenido_a3, article.barra_lateral_contenido_a4, article.barra_lateral_contenido_a5, article.barra_lateral_contenido_a6, article.barra_lateral_contenido_a7, article.barra_lateral_contenido_a8{
+
+ 	width: 800px;
+ }
+ h2.contenedor_derecho_titulo {
+ 	width: 800px;
+ }
+  header.barra-header {
+  	max-width: 800px
+  }
+  header h1 img {
+  	margin: 0 auto;
+  }
+  .contenedor-principal {
+  	width: 800px;
+  }
+  div.barra-etiquetas {
+  	width: 800px;
+  }
+  nav.barra-navegacion {
+  	width:800px
+  }
+  nav.barra-navegacion ul {
+  	text-align: center;
+  	margin-top: -25px;
+  }
+  div.barra-etiquetas ul a{
+  	font-size: 16px;
+  }
+  footer.contacto {
+  	width:800px
+  }
+  section.contenedor-multimedia-inicio {
+  	width: 799px;
+  }
+  .multimedia-inicio {
+  	width: 799px;
+  }
+  .multimedia-inicio-video {
+  	width: 799px;
+  }
+  .videos-multimedia {
+  	width: 799px;
+  }
+  section.right {
+  	margin-top: -18px;
+  	width: 800px;
+  }
+  .right .right-secciona {
+  	display: inline-block;
+  	float: left;
+  	width: 300px;
+  }
+   .right .right-seccionb {
+  	display: inline-block;
+  	float: left;
+  	width: 498px;
+  }
+ section.publicaciones-peru-ga {
+ 	margin-top:  5px;
+ 	width: 800px;
+ }
+  section.publicaciones-peru-ga h2 {
+ 	width: 800px;
+ }
+ section.publicaciones-peru-ga figure {
+ 	margin-left: 0;
+ 	width: 200px;
+ }
+ section.publicaciones-peru-ga figure img {
+ 
+ 	width: 150px;
+ 	text-align: center;
+ }
+ section.publicaciones-peru-ga article {
+ 	width: 198px;
+ 
+ 	display: inline-block;
+ 	float: left;
+ 	margin-top: 30px;
+ }
+  section.publicaciones-peru-ga article h3 {
+ 	text-align: center;
+ }
+ section.publicaciones-peru-ga div.text {
+ 	width: 190px;
+ 	padding: 0 10px;
+ 	margin: 0 auto;
+ 	float: none;
+ }
+ section.publicaciones-peru-ga span.descargar a {
+ 	margin: 0 auto;
+ }
+ section.right h2.enlaces-de-interes {
+ 	display: inline-block;
+ 	width: 498px;
+ 	float: left;
+ 	margin-left: 1px;
+ }
+ div.right-enlaces-de-interes {
+ 	display: inline-block;
+ 	width: 498px;
+ 	float: left;
+ 	margin-left: 1px;
+ }
+}
+@media (max-width: 835px) {
+  img.logo {
+  	margin-left: 212px;
+  	width: 300px;
+  }
+
+  div.contenedor-grande-1 {
+  	width: 720px;
+  	margin: 0 auto;
+  }
+  header.barra-header {
+  	width: 720px;
+	  	margin: 0 auto;
+  }
+  header h1 img {
+  	margin: 0 auto;
+  }
+  .contenedor-principal {
+  	width: 800px;
+  	margin: 0 auto
+  }
+  section.slider-principal {
+  	width: 720px;
+  	margin: 0 auto;
+  }
+  div.barra-etiquetas {
+  	width: 720px;
+  	  	margin: 0 auto
+  }
+  div.barra-etiquetas ul {
+  	padding: 5px;
+  }
+  nav.barra-navegacion {
+  	width:720px;
+  	margin: 0 auto
+  }
+
+  nav.barra-navegacion ul {
+  	text-align: center;
+  	margin-top: -25px;
+  }
+  nav.barra-navegacion ul a {
+  	padding: 10px 35px;
+  }
+  div.barra-etiquetas ul a{
+  	font-size: 16px;
+  	padding: 10px 15px;
+  }
+  .bx-wrapper {
+  	width: 720px;
+  	margin: 0 auto;
+  }
+  footer.contacto {
+  	width:720px;
+  	margin: 0 auto;
+  }
+  section.contenedor-multimedia-inicio {
+  	width: 720px;
+  	margin: 0 auto;
+  	display: block;
+  	float: none;
+  	margin-top: -45px;
+  }
+  .multimedia-inicio {
+  	width: 720px;
+  }
+  .multimedia-inicio-video {
+  	width: 720px;
+  }
+  .videos-multimedia {
+  	width: 720px;
+  }
+  section.right {
+  	margin: -18px 0 0 40px;
+  	width: 720px;
+
+  }
+  .right .right-secciona {
+  	display: inline-block;
+  	float: left;
+  	width: 300px;
+  }
+   .right .right-seccionb {
+  	display: inline-block;
+  	float: left;
+  	width: 419px;
+  }
+  
+ section.publicaciones-peru-ga {
+ 	width: 720px;
+ 	display: block;
+ 	float: none;
+ 	margin: 5px auto 0 auto;
+ }
+  section.publicaciones-peru-ga h2 {
+ 	width: 720px;
+ }
+ section.publicaciones-peru-ga figure {
+ 
+ 	width: 190px;
+ }
+ section.publicaciones-peru-ga figure img {
+
+ 	width: 150px;
+ 	text-align: center;
+ }
+ section.publicaciones-peru-ga article {
+ 	width: 25%;
+ 	min-width: 20%;
+ 	padding: 0 2px;
+ 	display: inline-block;
+ 	float: left;
+ 	margin-top: 30px;
+ }
+  section.publicaciones-peru-ga article h3 {
+ 	text-align: center;
+ }
+ section.publicaciones-peru-ga span.descargar a {
+ 	margin: 0 auto;
+ }
+ section.right h2.enlaces-de-interes {
+ 	display: inline-block;
+ 	width: 419px;
+ 	float: left;
+ 	margin-left: 1px;
+ }
+ div.right-enlaces-de-interes {
+ 	display: inline-block;
+ 	width: 419px;
+ 	float: left;
+ 	margin-left: 1px;
+ }
+
+ article.barra_lateral_contenido_a1, article.barra_lateral_contenido_a2, article.barra_lateral_contenido_a3, article.barra_lateral_contenido_a4, article.barra_lateral_contenido_a5, article.barra_lateral_contenido_a6, article.barra_lateral_contenido_a7, article.barra_lateral_contenido_a8{
+
+ 	width: 800px;
+ 	margin: 0 auto;
+ }
+ h2.contenedor_derecho_titulo {
+ 	margin: 0 auto;
+ 	width: 720px;
+ }
+}
+@media (max-width: 820px) {
+
+	nav.barra-navegacion {
+
+	}
+	nav.barra-navegacion ul a {
+		display: block;
+		font-size: 24px;
+		margin: 0 auto;
+		width: 230px;
+		text-align: center;
+	
+	}
+	nav.barra-navegacion ul a.nav_active {
+		border-top: 2px solid transparent;
+		background-color: lightgray;
+	
+	}
+
+
+
+
+  img.logo {
+  	margin: 0 auto;
+  	width: 100%;
+  	padding: 0 20%;
+  	display: block;
+  	text-align: center;
+  }
+
+  div.contenedor-grande-1 {
+  	width: 100%;
+  	margin: 0 auto;
+  }
+  header.barra-header {
+  	width: 100%;
+	  	margin: 0 auto;
+  }
+  header h1 img {
+  	margin: 0 auto;
+  }
+  .contenedor-principal {
+  	width: 100%;
+  	margin: 0 auto
+  }
+  section.slider-principal {
+  	width: 100%;
+  	margin: 0 auto;
+  }
+  div.barra-etiquetas {
+  	width: 100%;
+  	  	margin: 0 auto;
+
+  }
+  div.barra-etiquetas ul {
+  	padding: 5px;
+  	display: inline-block;
+
+  }
+  nav.barra-navegacion {
+  	width:100%;
+  	margin: 0 auto
+  }
+
+  nav.barra-navegacion ul {
+  	text-align: center;
+  	margin-top: -25px;
+  }
+  nav.barra-navegacion ul a {
+  	padding: 10px 35px;
+  }
+  div.barra-etiquetas ul a{
+  	font-size: 20px;
+  	padding: 10px 15px;
+
+  	width: 400px;
+  }
+  .bx-wrapper {
+  	width: 100%;
+  	margin: 0 auto;
+  }
+  footer.contacto {
+  	width:100%;
+  	margin: 0 auto;
+  }
+  section.contenedor-multimedia-inicio {
+  	width: 100%;
+  	margin: 0 auto;
+  	display: block;
+  	float: none;
+  	margin-top: -45px;
+  }
+  .multimedia-inicio {
+  	width: 100%;
+  }
+  .multimedia-inicio-video {
+  	width: 100%;
+  }
+  .videos-multimedia {
+  	width: 100%;
+  }
+  section.right {
+  	margin: -18px 0 0 0;
+  	width: 100%;
+
+  }
+  .right .right-secciona {
+  	display: inline-block;
+  	float: left;
+  	width: 42%;
+
+  }
+   .right .right-seccionb {
+  	display: inline-block;
+  	float: left;
+  	width: 58%;  	padding-left: 8px;
+  }
+  
+ section.publicaciones-peru-ga {
+ 	width: 100%;
+ 	display: block;
+ 	float: none;
+ 	margin: 5px auto 0 auto;
+ }
+  section.publicaciones-peru-ga h2 {
+ 	width: 100%;
+ }
+ section.publicaciones-peru-ga figure {
+ 	margin-left: 6%;
+ 	width: 160px;
+ }
+ section.publicaciones-peru-ga figure img {
+
+ 	width: 160px;
+ 	text-align: center;
+ }
+
+ 
+  section.publicaciones-peru-ga article h3 {
+ 	text-align: center;
+ 	margin: 0;
+ }
+   section.publicaciones-peru-ga div.text{
+ 	text-align: left;
+ 	width: 100%
+ 
+ }
+
+ section.publicaciones-peru-ga span.descargar a {
+ 	margin: 0 auto;
+ }
+ section.right h2.enlaces-de-interes {
+ 	display: inline-block;
+ 	width: 99%;
+ 	float: left;
+ 	margin-left: 1px;
+ }
+ div.right-enlaces-de-interes {
+ 	display: inline-block;
+ 	width: 99%;
+ 	float: left;
+ 	margin-left: 1px;
+ }
+
+ article.barra_lateral_contenido_a1, article.barra_lateral_contenido_a2, article.barra_lateral_contenido_a3, article.barra_lateral_contenido_a4, article.barra_lateral_contenido_a5, article.barra_lateral_contenido_a6, article.barra_lateral_contenido_a7, article.barra_lateral_contenido_a8{
+
+ 	width: 100%;;
+ 	margin: 0 auto;
+ }
+ h2.contenedor_derecho_titulo {
+ 	margin: 0 auto;
+ 	width: 100%;
+ }
+}
+@media (max-width: 700px) {
+section.publicaciones-peru-ga article {
+	display: block;
+	width: 100%;
+}
+section.publicaciones-peru-ga div.text {
+	width: 100%;
+}
+section.publicaciones-peru-ga figure {
+	width: 100%;
+	text-align: center;
+	margin: 0 auto 10px auto;
+}
+.right div.right-secciona {
+	display: block;
+	width: 100%;
+}
+.right div.right-secciona h2 {
+	width: 100%;
+}
+.right div.right-secciona iframe {
+	
+
+	text-align: center;
+}
+.right  div.right-seccionb {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+footer.contacto {
+	width: 100%;
+}
+footer.contacto span.copyright{
+	width: 100%
+}
+div.barra-etiquetas ul a {
+	width: 100%
+}
+}
